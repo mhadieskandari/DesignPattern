@@ -1,0 +1,17 @@
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Singletone.Test.deps.json
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Singletone.Test.runtimeconfig.json
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Singletone.Test.runtimeconfig.dev.json
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Singletone.Test.dll
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\Singletone.Test.pdb
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\OOP.dll
+C:\Users\hadie\Desktop\OOP\Singletone.Test\bin\Debug\netcoreapp2.2\OOP.pdb
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.csprojAssemblyReference.cache
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.csproj.CoreCompileInputs.cache
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.AssemblyInfoInputs.cache
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.AssemblyInfo.cs
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.csproj.CopyComplete
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.dll
+C:\Users\hadie\Desktop\OOP\Singletone.Test\obj\Debug\netcoreapp2.2\Singletone.Test.pdb
