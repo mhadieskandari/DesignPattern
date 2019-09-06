@@ -1,4 +1,5 @@
-﻿using OOP.DesignPatterns.Beahavioral;
+﻿using OOP.CSharpTricks;
+using OOP.DesignPatterns.Beahavioral;
 using OOP.DesignPatterns.Structural;
 using System;
 
@@ -9,21 +10,29 @@ namespace OOP
         static void Main(string[] args)
         {
 
+            #region Delegate
+            //var exampleDelegates = new ExampleDelegates();
+            //exampleDelegates.test();
+
+            var employeeTest = new EmployeeTest();
+            employeeTest.test();
+            #endregion
+
             #region Observer Pattern
-            ICeleberity GCloony = new GCloony("gc tweet 1");
-            ICeleberity TSweeft = new TSweft("ts tweet 1");
+            //ICeleberity GCloony = new GCloony("gc tweet 1");
+            //ICeleberity TSweeft = new TSweft("ts tweet 1");
 
-            IFan fan1 = new Fan();
-            IFan fan2 = new Fan();
+            //IFan fan1 = new Fan();
+            //IFan fan2 = new Fan();
 
-            GCloony.AddFollower(fan1);
-            GCloony.AddFollower(fan2);
+            //GCloony.AddFollower(fan1);
+            //GCloony.AddFollower(fan2);
 
-            TSweeft.AddFollower(fan1);
-            TSweeft.AddFollower(fan2);
+            //TSweeft.AddFollower(fan1);
+            //TSweeft.AddFollower(fan2);
 
-            GCloony.Tweet="gc tweet2";
-            TSweeft.Tweet = "ts tweet2";
+            //GCloony.Tweet="gc tweet2";
+            //TSweeft.Tweet = "ts tweet2";
 
 
             #endregion
