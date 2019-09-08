@@ -10,12 +10,37 @@ namespace OOP
         static void Main(string[] args)
         {
 
+            var a = 123123;
+            var b= 123_123;
+
+            Console.WriteLine($"a is {a} and  is {b}");
+
+            #region Local Function in C# 7.0
+            //var lf = new LocalFunction();
+            //Console.WriteLine(lf.GetAverage(1, 2, 3));
+            
+            #endregion
+
+            #region Deconstruct in C# 7
+            //Person p = new Person
+            //{
+            //    FirstName = "Hadi",
+            //    LastName = "Eskandari",
+            //    BirthDate = new DateTime(1989, 2, 11)
+            //};
+
+            //var (firstname, lastname) = p;
+
+            //Console.WriteLine($"firstname is {firstname } and lastname is {lastname}");
+
+            #endregion
+
             #region Delegate
             //var exampleDelegates = new ExampleDelegates();
             //exampleDelegates.test();
 
-            var employeeTest = new EmployeeTest();
-            employeeTest.test();
+            //var employeeTest = new EmployeeTest();
+            //employeeTest.test();
             #endregion
 
             #region Observer Pattern
