@@ -2,6 +2,8 @@
 using OOP.DesignPatterns.Beahavioral;
 using OOP.DesignPatterns.Structural;
 using System;
+using System.Collections.Generic;
+using System.Data;
 
 namespace OOP
 {
@@ -10,15 +12,87 @@ namespace OOP
         static void Main(string[] args)
         {
 
-            var a = 123123;
-            var b= 123_123;
 
-            Console.WriteLine($"a is {a} and  is {b}");
+
+            #region Generic InterFaces
+
+            //var inv = new Invoice
+            //{
+            //    Id = 1,
+            //    FirstName = "hadi",
+            //    LastName = "eskandari"
+            //};
+            //var genericCalss = new listGeneric<Invoice>(inv);
+            //foreach(var p in genericCalss.GetListProperties())
+            //{
+            //    Console.WriteLine(p);
+            //}
+
+            #endregion
+
+            #region Generic Class
+            //GenericClass<int> c1 = new GenericClass<int>(10);
+            //c1.GetTypeName();
+
+            //GenericClass<string> c2 = new GenericClass<string>("a");
+            //c2.GetTypeName();
+            //GenericClass<decimal> c3 = new GenericClass<decimal>(10);
+            //c3.GetTypeName();
+            //GenericClass<double> c4 = new GenericClass<double>(10);
+            //c4.GetTypeName();
+
+            //var list = new DataSet();
+            //list.Tables.Add();
+            //GenericClassIDisposable<DataSet> lst = new GenericClassIDisposable<DataSet>(list);
+            //lst.GetTypeName();
+            #endregion
+
+            #region ref return and local in C# 7.0
+
+            //var refClass = new RefReturnAndLocal();
+            //int a = 10;
+            //int b = 20;
+            //int val = refClass.GetLargest(a, b);
+            //val += 20;
+            //Console.WriteLine($"a is {a} and b is {b} and val is {val}");
+            //ref int refval = ref refClass.GetLargest(ref a, ref b);
+            //refval += 20;
+            //Console.WriteLine($"ref===>>> a is {a} and b is {b} and val is {refval}");
+
+            //Console.WriteLine($"b equal val1 ==>{b.Equals(refval) } ");
+
+
+            //unsafe
+            //{
+            //    IntPtr a_memory_address = (IntPtr)(&a);
+            //    IntPtr b_memory_address = (IntPtr)(&b);
+            //    IntPtr val_memory_address = (IntPtr)(&val);
+
+            //    fixed(int*  refval_var =&refval)
+            //    {
+            //        IntPtr refval_memory_address = (IntPtr)(refval_var);
+            //        Console.WriteLine($"memory address of a equal {a_memory_address}");
+            //        Console.WriteLine($"memory address of b equal {b_memory_address}");
+            //        Console.WriteLine($"memory address of val equal {val_memory_address}");
+            //        Console.WriteLine($"memory address of refval equal {refval_memory_address}");
+
+            //    }
+
+            //}
+
+            #endregion
+
+            #region new spilited int type with _ in C# 7.0
+            //var a = 123123;
+            //var b= 123_123;
+
+            //Console.WriteLine($"a is {a} and  is {b}");
+            #endregion
 
             #region Local Function in C# 7.0
             //var lf = new LocalFunction();
             //Console.WriteLine(lf.GetAverage(1, 2, 3));
-            
+
             #endregion
 
             #region Deconstruct in C# 7

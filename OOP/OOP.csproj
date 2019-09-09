@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
 </Project>
